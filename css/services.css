@@ -1,0 +1,108 @@
+header{
+    background-color: rgb(235,235,245);
+
+}
+
+header .logo{
+    margin: 0px;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.35em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color:blue;
+}
+
+
+ /*-------------------------------------------------------------------------------------------- */
+
+
+ /* BODY -- */
+
+#nuestros-sv {
+    background-image: url("../img/tecno.jpg");
+    color: white;
+    text-align: center;
+    
+    }
+    
+    #nuestros-sv .container-sv{
+        padding: 150px 0px;
+    }
+    
+    #nuestros-sv h2{
+        margin-top: 0;
+    }
+    #nuestros-sv p{
+        display: none;
+    }
+    
+    #nuestros-sv .planes{
+        background-position: center center;
+        background-size: cover;
+        padding: 50px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+
+    button{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: 1px solid rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5); 
+        color: white;
+        background-color: blueviolet;
+    }
+    
+    button:hover{
+        background-color: rgb(38, 6, 69);
+    }
+    
+    .planes:first-child{
+        background-image: url("../img/fnd.jpg");
+        color: wheat;
+        font-weight: bold;
+    }
+    
+    .planes:nth-child(2){
+        background-image: url("../img/cart.PNG");
+        color: black;
+        font-weight: bold;
+    }
+    
+    .planes:nth-child(3){
+        background-image: url("../img/background.jpg");
+        color: wheat;
+        font-weight: bold;
+    }
+    
+
+    /*FOOTER */
+ .container_footer {
+    background-color: white;
+    text-align: center;
+}
